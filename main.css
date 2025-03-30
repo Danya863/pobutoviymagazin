@@ -1,0 +1,46 @@
+header {
+    background-color: #436E76;
+}
+
+header h1 {
+    color: white;
+}
+
+main img {
+    border: 1px solid black;
+}
+
+footer {
+    background-color: #4E5A82
+}
+
+footer p, h2 {
+    color: white;
+}
+
+.img2 {
+    margin-left: 20px;
+}
+
+.img4 {
+    margin-left: 20px;
+}
+
+.img6 {
+    margin-left: 20px;
+}
+
+.img1-2 {
+    display: flex;
+    justify-content: center;
+}
+
+.img3-4 {
+    display: flex;
+    justify-content: center;
+}
+
+.img5-6 {
+    display: flex;
+    justify-content: center;
+}
