@@ -13,6 +13,13 @@ header h1 {
 
 main img {
     border: 1px solid black;
+    opacity: 0.6;
+}
+
+main img:hover {
+    opacity: 1;
+    transition: opacity 1s;
+    box-shadow: 0 0 15px 5px grey;
 }
 
 main p {
@@ -36,29 +43,11 @@ footer p, h2 {
     font-size: 20px;
 }
 
-.img2 {
+.img {
     margin-left: 20px;
 }
 
-.img4 {
-    margin-left: 20px;
-}
-
-.img6 {
-    margin-left: 20px;
-}
-
-.img1-2 {
-    display: flex;
-    justify-content: center;
-}
-
-.img3-4 {
-    display: flex;
-    justify-content: center;
-}
-
-.img5-6 {
+.img- {
     display: flex;
     justify-content: center;
 }
